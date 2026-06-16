@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build output
+web/dist/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Simulation output
+sim/*.json
+!sim/tomas_simulator.py
+!sim/test_tomas.py
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vite
+web/.vite/
