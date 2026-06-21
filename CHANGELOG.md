@@ -51,3 +51,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 - **Cross-platform consistency**: XOR-shift sequence identical across Python/JS/Verilog (10-step numerical verification). PASS.
 - **Web build**: 921 modules, 0 errors. PASS.
 - **Full test suite**: 10/10 tests passed. PASS.
+
+---
+
+## [1.0.1] - 2026-06-21
+
+### Added
+
+- **6 new technical documents**:
+  - `docs/PAPER.md` -- Formal academic paper (9 sections + references) covering full theoretical framework, system architecture, hardware implementation, experimental verification, and iOS jailbreak isomorphism mapping.
+  - `docs/INSTALLATION.md` -- Comprehensive installation and deployment guide (Python sim, Web app, Verilog synthesis, troubleshooting).
+  - `docs/EXPERIMENTS.md` -- Detailed experiment verification report with full test matrices, numerical data tables, and Bug fix history.
+  - `docs/THEORY.md` -- Deep theoretical foundations: TOMAS axioms mathematical formalism, XOR-shift Galois field properties, frequency body eigen-spectrum, six Siddhi demystification, iOS jailbreak formal isomorphism.
+  - `docs/ROADMAP.md` -- Future development roadmap (v1.1 cocotb integration, v1.2 FPGA synthesis, v2.0 multi-core TOMAS, v3.0 full AGI integration).
+  - `docs/FAQ.md` -- 15 frequently asked questions covering Dead-Zero semantics, XOR-shift implementation, MUS vs voting, I_MIN threshold, FPGA synthesis, iOS mapping, and more.
